@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickupLocation) {
-    return Math.absoluteValue(pickupLocation - 42);
+    return Math.abs(pickupLocation - 42);
   }
   
   // Returns the number of feet from Scuber's headquarters to the pickup location
@@ -10,7 +10,7 @@ function distanceFromHqInBlocks(pickupLocation) {
   
   // Calculates the number of feet a passenger travels given a starting block and an ending block (uptown/downtown only)
   function distanceTravelledInFeet(start, destination) {
-    return Math.absoluteValue(destination - start) * 264;
+    return Math.abs(destination - start) * 264;
   }
   
   // Returns the fare for the customer based on the distance traveled
